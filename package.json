@@ -1,0 +1,23 @@
+  
+{
+    "name": "youtube-codes",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "node ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "discord.js": "^12.2.0",
+      "node-opus": "^0.3.3",
+      "@discordjs/opus": "^0.3.2",
+      "ytdl-core": "^2.1.7",
+      "ytsr": "^0.1.15",
+      "ffmpeg-static": "^4.2.5",
+      "ffmpeg": "^0.0.4"
+    }
+  }
+  
