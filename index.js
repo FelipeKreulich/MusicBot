@@ -4,7 +4,7 @@ const Ytdl = require('ytdl-core');
 const Ytsr = require('ytsr');
 const app = new Discord.Client();
 
-const prefixoComando = '!'; // select your prefix
+const prefixoComando = ''; // select your prefix
 
 var servidores = {};
 
@@ -183,7 +183,7 @@ app.on('message', async (msg) => {
         const embed = new Discord.MessageEmbed()
         .setTitle('**COMANDOS DO BOT:**')
         .setColor('#ea1313')
-        .setDescription('**!play <nomedamusica>** - *O BOT irá tocar a música selecionada.*\n**!leave** - *O BOT irá sair do canal de voz.*\n**!pause** - *O BOT irá pausar e despausar a Música ativa no momento.*\n**!skip** - *O BOT irá tocar a próxima música da fila.*\n**!info** - *O BOT irá informar os detalhes da música ativa no momento.*')
+        .setDescription('') // put the commands bot
         msg.channel.send(embed)
     }
 });
